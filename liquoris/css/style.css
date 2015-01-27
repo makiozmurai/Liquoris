@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+/*/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_
+共通設定及びスマホ
+/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_*/
+body{
+	width:100%;
+	padding:0;
+	font-size:12px;
+	line-height:1.5em;
+	background-color:#FFF;
+	font-family: 'EB Garamond', serif,'Linden Hill', serif,"メイリオ", "Meiryo","ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+}
+ul{
+	list-style: none;
+	text-align:center;
+}
+ul li{
+	display: inline-block;
+	margin-left: 80px;}
+a{
+	text-decoration:none;
+	color:#333333;
+}
+#timeout{
+	display: none;
+	position: absolute;
+	top: 30%;
+	left: 37%;
+}
+#fadeImage{
+	display: none;
+}
+#footer{
+	bottom: 0px;
+}

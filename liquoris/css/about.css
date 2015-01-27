@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+/*/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_
+共通設定及びスマホ
+/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_*/
+.sub_nav li{
+	margin: 0 0 0 0;
+}
+.sub_nav_story{
+	margin-left: 157px;
+	color:#fff;
+}
+.sub_nav_concept{
+	margin-left: 87px;
+	color:#fff;
+}
+.background_img{
+	background-image: url("../image/about_img.png");
+	background-size:cover;
+	width: 51%;
+	height: 960px;
+	position: fixed;
+	top:0;
+	z-index: -999;
+	left: 17%;
+	opacity: 0.1;
+	min-width: 674px;
+    margin-top: 0;
+	  -webkit-transition: all 1.2s;
+      -moz-transition: all 1.2s;
+      -ms-transition: all 1.2s;
+      -o-transition: all 1.2s;
+      transition: all 1.2s;
+      opacity: 0;
+}
+.fixed2 {
+	background-image: url("../image/about_img.png");
+	background-size:cover;
+    position: fixed;
+    top: 0;
+    width: 51%;
+    z-index: 10000;
+    opacity: 0.1;
+}
+.story_title{
+	font-size: 20px;
+	text-align: center;
+	margin: 80px auto 15%;
+	display: block;
+}
+.story_text01{
+	text-align: left;
+	line-height: 2em;
+	margin: 5% 0 0 15%;
+	display: block;
+}
+.story_text02{
+	text-align: left;
+	line-height: 2em;
+	margin: 5% 15% 0 15%;
+	display: block;
+}
+.story_text03{
+	text-align: left;
+	line-height: 2em;
+	margin: 5% 0 0 15%;
+	display: block;
+}
+.story_text04{
+	text-align: left;
+	line-height: 2em;
+	margin: 5% 15% 0 15%;
+	display: block;
+}
+.story_text05{
+	text-align: left;
+	line-height: 2em;
+	margin:5% 0 0 15%;
+	display: block;
+}
+.concept_title{
+	font-size: 20px;
+	text-align: center;
+	margin: 15% auto 0;
+	display: block;
+}
+.concept_text01{
+	text-align: center;
+	line-height: 2em;
+	margin: 5% auto 0;
+}
+.profile_title{
+	font-size: 20px;
+	text-align: center;
+	margin: 15% auto 0;
+	display: block;
+}
+.profile_text01{
+	text-align: center;
+	line-height: 2em;
+	margin: 5% auto 0;
+}

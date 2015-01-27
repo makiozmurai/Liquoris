@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>About | liquoris</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/common.css" rel="stylesheet" type="text/css" />
+<link href="../css/order.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Linden+Hill:400,400italic' rel='stylesheet' type='text/css'>
+<!-- <script type="text/javascript" src="../js/footerFixed.js"></script> -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="fadeImage" class="wrap">
+	<header id="header">
+		<div id="logo">
+			<a href="../index.html"><img src="../image/logo.png" width="140"></a>
+		</div>
+		<nav>
+			<ul>
+				<li class="about"><a href="../about/index.html">About</a></li>
+				<li class="art"><a href="../art/index.html">Art</a></li>
+				<li class="works"><a href="#">Works</a></li>
+				<li class="collection"><a href="#">Collection</a></li>
+				<li class="order"><a href="index.html">Order</a></li>
+				<li class="shop"><a href="#">Shop</a></li>
+				<li class="contact"><a href="../contact/index.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="contents">
+		<div class="order_area">
+			<img class="order_top" src="../image/order_img.png" height="200" width="1400">
+			<h1 class="order_title">order</h1>
+		</div>	
+		<div class="order_hr01"></div>
+		<h2 class="order_text01">
+			当店の商品はすべて完全受注生産のため、<br>
+			ご注文頂いてから商品を製作致します。<br>
+			そのためお届けまでに１から２週間ほどお時間を頂いております。<br>
+			ご理解のほどよろしくお願い致します。
+		</h2>
+		<div class="order_area02">
+			<img class="order_top02" src="../image/order_img02.png" height="146" width="1400">
+		</div>
+		<div class="order_hr01"></div>
+		<h2 class="order_text02">
+			1: メールにてお名前、送付先、ご希望の商品名を明記してください。<br>
+			2: こちらからご注文確認のメールが届きましたら、指定の口座に商品代金をご入金ください。<br>
+			3: ご入金の確認が取れましたら商品の製作にとりかかります。<br>
+			4: １から２週間ほどでお手元にお届け致します。<br>
+<br>
+		</h2>
+			<form class="contact_form" action="mail.php" method="post">
+				<p>Name</p>
+				<input type="text" name="name" value="" >
+				
+				<p>Adress</p>
+				<input type="text" name="adrdess" value="" >
+				
+				<p>Tel</p>
+				<input type="text" name="tel" value=""  >
+				
+				<p>Email</p>
+				<input type="text" name="Email" value="" >
+				
+				<p>Order</p>
+				<textarea name="order" rows="4" cols="40" wrap="hard" value="ご注文内容" ></textarea>
+								
+				<input class="submitBtn" type="submit" name="submit" value="SUBMIT">
+			</form>
+	</div>
+	<footer id="footer">
+		<div class="cledit">
+			<section>LIQUORIS   2014   -  Takayuki Abe  -</section>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+/*/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_
+共通設定及びスマホ
+/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_*/
+#contents{
+	padding-bottom: 0;
+}
+.art_header{
+	width: 100%;
+	min-width: 1024px;
+	margin: 0 auto;
+}
+.art_title{
+	font-size: 20px;
+	text-align: center;
+	margin: 80px auto 15%;
+	display: block;
+}
+.line{
+	width: 1024px;
+	min-width: 1024px;
+	margin: 5% auto;
+	display: block
+}
+.item01,
+.item02,
+.item03{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin-left: 106px;
+}
+.item01:hover,
+.item02:hover,
+.item03:hover{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+
+/*/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_
+itemのhoverアクション
+/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_*/
+.hov{
+	-webkit-border-radius: 50％; /* Safari, Chrome用 */
+	-moz-border-radius: 50％; /* Firefox用 */
+	border-radius: 50％; /* CSS3 */
+	box-shadow:0 0 0 0 rgba(0,0,0,0);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.hov:hover{
+	-webkit-box-shadow: 0px 0px 10px #999; /* Safari, Chrome用 */
+	-moz-box-shadow: 0px 0px 10px #999; /* Firefox用 */
+	box-shadow: 0px 0px 10px #999; /* CSS3 */
+	-webkit-border-radius: 50%; /* Safari, Chrome用 */
+	-moz-border-radius: 50%; /* Firefox用 */
+	border-radius: 50%; /* CSS3 */
+}
+.item_text{
+	width: 200px;
+	text-align: center;
+	margin-top: 20px;
+}
+.fake{
+	  border-radius: 50%;
+	  height: 200px;
+	  width: 200px;
+
+	  background-color: #efefef;
+}
+.item_box{
+	width: 1024px;
+	min-width: 1024px;
+	margin: 0 auto;
+	margin-bottom: 120px;
+}
+.item_img{
+	width: 440px;
+	height: auto;
+	float: left;
+	margin-left: 24px;
+	overflow: hidden;
+}
+.item_concept_box{
+	width: 500px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	height: 590px;
+}
+.item_concept_title{
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.item_concept{
+	line-height: 4em
+}
+
+
+
+
+

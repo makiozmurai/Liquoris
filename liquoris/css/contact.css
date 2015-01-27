@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+/*/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_
+共通設定及びスマホ
+/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_*/
+.contact_area{
+	width: 100%;
+	height:auto;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.contact_top{
+	width:100%;
+	min-width: 1024px;
+	height: 146px;
+}
+.contact_title{
+	background-image: url("../image/contact_title.png");
+	background-size: cover;
+	width: 83px;
+	height: 28px;
+	text-indent: 9999px;
+	position: relative;
+	left: 47%;
+	top: -80px;
+	overflow: hidden;
+}
+.contact_hr01{
+	width: 960px;
+	height: 1px;
+	background-color: #333333;
+	margin: 30px auto;
+}
+.contact_text01{
+	width: 960px;
+	margin: 60px auto 60px;
+	text-align: center;
+	line-height: 4em;
+}
+.contact_form{	
+    text-align: left;
+    width: 530px;
+    margin: 0 auto;
+}
+form textarea{
+	width: 500px;
+	height: 60px;
+	margin-bottom: 40px;
+}
+form input,
+form textarea{
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+    /* 以下装飾です。削除OK */
+	
+    overflow: hidden;
+	
+    color: #075799;
+	
+    border: 1px solid #19283c;
+	
+    height: 30px;
+	line-height: 30px;
+	width: 500px;
+	margin-bottom: 30px;
+}
+form input,
+form textarea{}
+
+
+form textarea:before,.btn:after{
+    position: absolute;
+    display: block;
+    content:"";
+    height: 100%;
+    width: 100%;
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+}
+form input:before,.btn:after{
+    position: absolute;
+    display: block;
+    content:"";
+    height: 100%;
+    width: 100%;
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+}
+form textarea{
+	width: 500px;
+	height: 60px;
+	margin-bottom: 40px;
+}
+.submitBtn{
+	transition: all 0.3s;
+	overflow: hidden;
+	color: #EAA901;
+	border: 1px solid #EAA901;
+	height: 30px;
+	line-height: 30px;
+	width: 500px;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+}
+.submitBtn:hover{
+	transition: all 0.3s;
+	overflow: hidden;
+	color: #ffffff;
+	border: 1px solid #EAA901;
+	height: 30px;
+	line-height: 30px;
+	width: 500px;
+	margin-bottom: 30px;
+	background-color: #EAA901;
+}
+
+
+
+
+
+
